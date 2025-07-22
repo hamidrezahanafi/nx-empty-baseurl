@@ -1,4 +1,4 @@
-
+import Component from "./components/Component";
 
 
 export default function Index() {
@@ -9,7 +9,7 @@ export default function Index() {
    */
   return (
     <div>
-      
+      <Component />
       
     <div className="wrapper">
       <div className="container">

@@ -11,6 +11,10 @@ const nextConfig = {
   // Use this to set Nx-specific options
   // See: https://nx.dev/recipes/next/next-config-setup
   nx: {},
+  webpack: (config) => {
+    config.resolve.alias['@tools/my-plugin'] = require('path').resolve(__dirname, '../tools/my-plugin/src');
+    return config;
+  },
 };
 
 const plugins = [

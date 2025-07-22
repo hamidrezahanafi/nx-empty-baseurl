@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
     "paths": {
+      "@test-app": [
+        "./test-app/src"
+      ],
       "@test-app/*": [
         "./test-app/src/*"
       ],
-      "@tools/my-plugin/*": [
-        "./tools/my-plugin/src/*"
-      ],
       "@tools/my-plugin": [
         "./tools/my-plugin/src"
+      ],
+      "@tools/my-plugin/*": [
+        "./tools/my-plugin/src/*"
       ]
     },
-    "composite": true,
-    "declarationMap": true,
+    "composite": false,
+    "declarationMap": false,
     "emitDeclarationOnly": true,
     "importHelpers": true,
     "isolatedModules": true,
