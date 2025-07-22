@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "library-with-readme": {
+      "factory": "./dist/generators/library-with-readme",
+      "schema": "./dist/generators/schema.json",
+      "description": "library-with-readme generator"
+    }
+  }
+}
