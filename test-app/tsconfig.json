@@ -26,7 +26,7 @@
       }
     ],
     "outDir": "dist",
-    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo"
   },
   "include": [
     "../dist/test-app/.next/types/**/*.ts",
