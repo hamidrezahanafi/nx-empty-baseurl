@@ -2,7 +2,9 @@
   "name": "@nx-empty-baseurl/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "tsc-test-app": "tsgo --project ./test-app/tsconfig.json"
+  },
   "private": true,
   "devDependencies": {
     "@nx/jest": "21.3.2",
@@ -26,7 +28,8 @@
     "tailwindcss": "3.4.3",
     "ts-node": "10.9.1",
     "tslib": "^2.3.0",
-    "typescript": "~5.8.2"
+    "typescript": "~5.8.2",
+    "@typescript/native-preview": "^7.0.0-dev.20250808.1"
   },
   "workspaces": [
     "packages/*",
